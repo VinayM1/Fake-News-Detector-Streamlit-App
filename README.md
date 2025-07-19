@@ -6,8 +6,8 @@
 
 ## 🚀 Live Demo
 
-👉 [**Click here to try the Fake News Detector live!**]((https://vm-fake-news-detector.streamlit.app/))  
-*(Replace the URL above once deployed on Streamlit Community Cloud or Hugging Face Spaces.)*
+👉 [**Click here to try the Fake News Detector live!**](https://vm-fake-news-detector.streamlit.app/)
+
 
 
 ## 📖 Overview
