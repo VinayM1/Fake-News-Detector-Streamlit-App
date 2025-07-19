@@ -120,7 +120,7 @@ streamlit run app.py
 
 ## 👨‍💻 Author
 
-**Your Name**  
+**Vinay Meena**  
 GitHub: [VinayM1](https://github.com/VinayM1)  
 LinkedIn: https://www.linkedin.com/in/vinay-meena-036119326/
 
