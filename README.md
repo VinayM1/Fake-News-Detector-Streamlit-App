@@ -40,7 +40,7 @@ Lowercasing: All characters are uniformly converted to lowercase (e.g., "The," "
 
 Punctuation & Number Removal: Symbols (e.g., !, ?, ,), numbers, and other non-alphabetic characters are stripped away. This focuses the analysis purely on the linguistic content.
 
-Stop Word Filtering: Common, high-frequency words in the English language (e.g., "is," "a," "and," "the," "of") typically carry little discriminative meaning for classification. These "stop words" are efficiently identified and removed, allowing the model to focus on more informative keywords.
+Stop Word Filtering: Common, high-frequency words in the English language (e.g., "is," "a," and "the") typically carry little discriminative meaning for classification. These "stop words" are efficiently identified and removed, allowing the model to focus on more informative keywords.
 
 Lemmatization: Words are reduced to their base or dictionary form (their "lemma"). For instance, "running," "ran," and "runs" all become "run." This process standardizes vocabulary, reduces redundancy, and improves the model's ability to generalize across different word forms.
 
@@ -78,7 +78,7 @@ pandas: A powerful data manipulation and analysis library, utilized for efficien
 
 streamlit: The innovative open-source framework used to build the interactive, attractive, and easily deployable web application with minimal code.
 
-joblib: A set of tools to provide lightweight pipelining in Python, primarily used here for efficient saving and loading of the trained machine learning model and TF-IDF vectorizer, enabling quick predictions without retraining.
+joblib: Employed for efficient saving and loading of the trained machine learning model and TF-IDF vectorizer, enabling quick predictions without retraining.
 
 Setup and Run Locally 💻
 Follow these steps to get a local copy of the project up and running on your machine.
@@ -91,9 +91,6 @@ cd Fake-News-Detector-Streamlit-App
 Create and activate a virtual environment (highly recommended):
 
 python -m venv venv
-# On Windows:
-.\venv\Scripts\activate
-# On macOS/Linux:
 source venv/bin/activate
 
 Install the required Python packages:
