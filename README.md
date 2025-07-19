@@ -80,64 +80,6 @@ streamlit: The innovative open-source framework used to build the interactive, a
 
 joblib: Employed for efficient saving and loading of the trained machine learning model and TF-IDF vectorizer, enabling quick predictions without retraining.
 
-Setup and Run Locally 💻
-Follow these steps to get a local copy of the project up and running on your machine.
-
-Clone the repository:
-
-git clone https://github.com/YOUR_GITHUB_USERNAME/Fake-News-Detector-Streamlit-App.git
-cd Fake-News-Detector-Streamlit-App
-
-Create and activate a virtual environment (highly recommended):
-
-python -m venv venv
-source venv/bin/activate
-
-Install the required Python packages:
-
-pip install -r requirements.txt
-
-(If requirements.txt is missing, generate it first by running pip freeze > requirements.txt in your activated virtual environment).
-
-Download NLTK data:
-
-Open your terminal/command prompt (with the virtual environment activated).
-
-Run the following commands:
-
-python -c "import nltk; nltk.download('wordnet')"
-python -c "import nltk; nltk.download('stopwords')"
-
-(This ensures the necessary linguistic data is available for preprocessing.)
-
-Place the dataset:
-
-Download the Fake.csv and True.csv files from the Fake and Real News Dataset on Kaggle.
-
-Create a folder named data in the root of your project directory.
-
-Place Fake.csv and True.csv inside the data folder.
-
-FakeNewsDetectorApp/
-├── data/
-│   ├── Fake.csv
-│   └── True.csv
-└── ...
-
-Train and Save the Model:
-
-Run the main.py script to train the model and save the necessary .pkl files (fake_news_model.pkl and tfidf_vectorizer.pkl).
-
-python main.py
-
-(This will output training progress and evaluation metrics.)
-
-Run the Streamlit application:
-
-streamlit run app.py
-
-Your web browser will automatically open a new tab displaying the Fake News Detector app (usually at http://localhost:8501).
-
 Deployment 🌐
 This application is designed for easy deployment to cloud platforms that support Streamlit applications. Popular choices include:
 
